@@ -1,5 +1,9 @@
 # Projeto CRUD de Comentários
 
+## Desenvolvido por:
+- Pedro Lucas Rodrigues Ramos Barreto(202304065764)
+- João Luís Monteiro Machado Lins(202302466141)
+
 ## Descrição do Projeto
 
 Este projeto foi desenvolvido durante a faculdade com o objetivo de implementar um sistema CRUD (Create, Read, Update, Delete) simples, permitindo aos usuários armazenar e gerenciar títulos e comentários por meio de um formulário. O sistema proporciona uma interface intuitiva para a inserção, visualização, edição e exclusão de registros.
