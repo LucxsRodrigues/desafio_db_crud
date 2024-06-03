@@ -1,32 +1,27 @@
-# Instruções de desenvolvimento
+# Projeto CRUD de Comentários
 
-## Pré-requisitos	
-- [Bun](https://bun.sh/)
-- [Git](https://git-scm.com/)
-- [Docker](https://www.docker.com/)
+## Descrição do Projeto
 
-## Instalação
+Este projeto foi desenvolvido durante a faculdade com o objetivo de implementar um sistema CRUD (Create, Read, Update, Delete) simples, permitindo aos usuários armazenar e gerenciar títulos e comentários por meio de um formulário. O sistema proporciona uma interface intuitiva para a inserção, visualização, edição e exclusão de registros.
 
-### Clone o repositório
-```bash
-git clone https://github.com/vinicivs-rocha/db-crud-challenge.git
-```
+## Funcionalidades
 
-### Instale as dependências
-```bash
-cd db-crud-challenge
-bun install
-```
+- **Criação de Comentários**: Os usuários podem inserir um título e um comentário através de um formulário.
+- **Leitura de Comentários**: Os comentários salvos são exibidos em uma lista, permitindo a visualização fácil dos dados armazenados.
+- **Atualização de Comentários**: Os usuários podem editar os títulos e comentários existentes, garantindo que as informações estejam sempre atualizadas.
+- **Exclusão de Comentários**: Os usuários podem excluir qualquer comentário, removendo permanentemente o registro do sistema.
 
-### Inicie o banco de dados
-1. Configure o arquivo `.env` com as variáveis de ambiente necessárias;
-2. Crie um arqivo ``docker-compose.yml`` que orquestre um banco de dados PostgreSQL, na sua última versão (conforme suportado pelas imagens disponibilizadas no [DockerHub](https://hub.docker.com/_/postgres)).
-3. Execute o comando `docker compose up -d` para iniciar o banco de dados.
-4. Criar as [tabelas necessárias para a aplicação](./assets/tables.png).
+## Tecnologias Utilizadas
 
-## Inicie o servidor de desenvolvimento
-```bash
-bun dev
-```
+- **Frontend**: HTML, CSS, TypeScript
+- **Backend**: Node.js, Bun
+- **Banco de Dados**: SQLite
 
-**Abra http://localhost:3000/ com o navegador para testar a aplicação.**
+## Como Usar
+
+1. **Adicionar Comentário**: Preencha o formulário com um título e um comentário, e clique em "Salvar".
+2. **Visualizar Comentários**: Os comentários salvos aparecerão em uma lista na página inicial.
+3. **Editar Comentário**: Clique no botão "Editar" próximo ao comentário que deseja modificar, faça as alterações e salve.
+4. **Excluir Comentário**: Clique no botão "Excluir" para remover permanentemente o comentário.
+
+## Obrigado pela atenção!
